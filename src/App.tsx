@@ -2,9 +2,10 @@ import "./styles.css";
 const environment = import.meta.env.VITE_PUBLIC_ENVIRONMENT || "local";
 const version = import.meta.env.VITE_PUBLIC_VERSION || "dev-local";
 const notes = [
-	"Pipeline de calidad activo",
-	"Promoción controlada de develop a staging",
-	"Despliegue de staging en GitHub Pages"
+  "Pipeline de calidad activo",
+  "Promoción controlada de develop a staging",
+  "Despliegue de staging en GitHub Pages",
+  "Cambio visible desde develop"
 ];
 export default function App() {
 	return (
@@ -39,3 +40,4 @@ export default function App() {
 		</main>
 	);
 }
+
